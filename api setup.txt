@@ -4,11 +4,11 @@ https://www.strava.com/oauth/authorize?client_id=68191&redirect_uri=http://local
 
 2. exchange authorisation code for access token & refresh token
 
-https://www.strava.com/oauth/token?client_id=68191&client_secret=a142d811b549cae6838fe41a58728fd4f0af4ea5&code=c16355d36ca94c98a1c52d6a4550993499685157&grant_type=authorization_code
+https://www.strava.com/oauth/token?client_id=68191&client_secret=a142d811b549cae6838fe41a58728fd4f0af4ea5&code=4683e66ae1c7acc8d6a85676408a310b5363b415&grant_type=authorization_code
 
 3. view your activities using the access token received
 
-https://www.strava.com/api/v3/athlete/activities?access_token=5c1c112aee3aea1b8d401c8bcee898440decdc11
+https://www.strava.com/api/v3/athlete/activities?access_token=439f4c2fe1ec929672498b8670f73ae649bb74aa
 
 4. Use refresh token to get new access tokens
 
